@@ -37,5 +37,5 @@ export const Modal = ({ onClick, openModal }) => {
 
 Modal.propTypes = {
     onClick: PropTypes.func,
-    openModal: PropTypes.func,
+    openModal: PropTypes.string,
 }
